@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navBarContainer {
+
+    background-color: lightblue;
+    height: 75px;
+
+
+
+}
+
+.navButtonContainer {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    border: 1px solid transparent;
+
+}
+
+.navBarContainer button {
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.navBarContainer button:hover {
+    background-color: pink;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signUpFormContainerBody {
+
+    background: linear-gradient(120deg, lightblue 35%, pink);
+
+    height: 700px;
+   
+
+}
+
+.formContainer {
+    position: absolute;
+
+    left: 35%;
+    top: 30%;
+    height: 75%;
+    width: 30%;
+
+    border-radius: 30px;
+    background: linear-gradient(45deg, pink, lightblue);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    /* border: 1px solid green; */
+
+}
+
+.formContainer input {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.formContainer h1 {
+    position: relative;
+    left: 9%;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.formContainer form li{
+    
+    margin-bottom: 1px;
+}
+.formContainer form li input{
+    border: transparent;
+    border-radius: 10px;
+    height: 30px;
+
+    width: 90%;
+}
+.formContainer form li:last-child input{
+    height: 150px;
+}
+
+.formContainer img{
+    position: relative;
+    height: 40px;
+    width: auto;
+    /* border: 1px solid red; */
+    top: 5%;
+    left: 20%;
+    margin-right: 65px;
+    margin-top: 5px;
+}
+.formContainer form{
+    /* border: 2px solid salmon; */
+    
+}
+
+#submitButton{
+    position: relative;
+    position: absolute;
+    left: 42%;
+    /* border: 1px solid yellow; */
+    
+}
+.formContainer img:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+
+}

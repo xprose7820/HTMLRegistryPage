@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(12, 60px); /* create 12 rows with a height of 100px */
+    grid-template-columns: repeat(12, 1fr); /* create 12 columns with equal width */
+
+    gap: 0px; /* add a gap between grid items */
+    background: linear-gradient(120deg, lightblue 35%,pink );
+}
+
+
+.navBar {
+    display: flex;
+    background-color: lightblue;
+    
+    /* border: 1px solid black; */
+    grid-row: 1 ;
+    grid-column: 1 / span 12;
+    justify-content: flex-end;
+
+}
+.navBar nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    grid-column: span 3;
+}
+.navBar button{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.navBar button:hover{
+    background-color: pink;
+    cursor: pointer;
+    font-weight: bold;
+}
+.signUpForm{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background: linear-gradient(45deg, pink, lightblue);
+    grid-row: 3 / span 8 ;
+    grid-column: 5 / span 4;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+
+}
+.signUpForm h1{
+    
+  
+}
+.signUpForm form{
+    
+   
+
+    
+}
